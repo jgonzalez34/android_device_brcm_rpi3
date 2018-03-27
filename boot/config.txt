@@ -24,6 +24,9 @@ avoid_warnings=2
 # I2C
 dtparam=i2c_arm=on
 
+# Rotary encoder
+dtoverlay=rotary-encoder
+
 # RPI display/touchscreen
 dtoverlay=i2c-rtc,ds3231
 dtoverlay=rpi-backlight
