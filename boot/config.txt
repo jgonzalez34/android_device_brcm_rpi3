@@ -24,6 +24,9 @@ avoid_warnings=2
 # I2C
 dtparam=i2c_arm=on
 
+# Proximity sensor
+dtoverlay=proximity-gpio
+
 # Rotary encoder
 dtoverlay=rotary-encoder
 
