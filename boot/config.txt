@@ -28,7 +28,8 @@ dtparam=i2c_arm=on
 dtoverlay=proximity-gpio
 
 # Rotary encoder
-dtoverlay=rotary-encoder
+# dtoverlay=rotary-encoder
+dtoverlay=rotary-encoder-gpio
 
 # RPI display/touchscreen
 dtoverlay=i2c-rtc,ds3231
