@@ -26,10 +26,13 @@ dtparam=i2c_arm=on
 
 # Proximity sensor
 dtoverlay=proximity-gpio
+#dtparam=keycode=29
 
 # Rotary encoder
 # dtoverlay=rotary-encoder
 dtoverlay=rotary-encoder-gpio
+#dtparam=keycodeA=59
+#dtparam=keycodeB=60
 
 # RPI display/touchscreen
 dtoverlay=i2c-rtc,ds3231
