@@ -1,5 +1,0 @@
-# Key layout used for gpio-keys
-
-key 29   LEFTCTRL   WAKE
-key 97   RIGHTCTRL   WAKE
-
